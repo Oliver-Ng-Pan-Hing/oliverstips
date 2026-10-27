@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/242af0f8f3.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/assets/Golden Tip Spark Icon.png" type="image/x-icon">
+    <title>Tip Calculator</title>
+</head>
+<body>
+
+    
+<main>
+
+
+    <div class="app-container">
+
+        <div class="logo">
+            <img id="tablemnt" src="/assets/Table Mountain Tip Calculator Logo.png" alt="">
+        </div>
+        <div class="great-heading">
+            <h2>GOOD FOOD</h2><i class="fa-solid fa-slash"></i>
+            <h2>GREAT PEOPLE</h2><i class="fa-solid fa-slash"></i>
+            <h2>FAIR SHARE</h2>
+        </div>
+    
+        <div class="container-for-inputs">
+            <!-- INPUTS -->
+            <div class="inputs inputs-1">
+                <div class="input-icon">
+                    <i class="fa-solid fa-receipt"></i>
+                </div>
+                <div class="input-details">
+                    <label for="">Bill Without Tip</label>
+                    <div class="inputs-container">
+                        <input id="bill-without-tip" type="number">
+                    </div>
+                </div>
+            </div>
+
+            <div class="inputs inputs-2">
+                <div class="input-icon">
+                    <i class="fa-solid fa-coins"></i>
+                </div>
+                <div class="input-details">
+                    <label for="">Tip Percentage</label>
+                    <div class="inputs-container">
+                        <input id="tip-percentage" type="number" placeholder="E.g. 10">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="inputs inputs-3">
+                <div class="input-icon">
+                    <i class="fa-solid fa-users"></i>
+                </div>
+                <div class="input-details">
+                    <label for="">Number of People</label>
+                    <div class="inputs-container">
+                        <input id="number-of-people" type="number" placeholder="E.g. 2">
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        
+        <!-- ACTION -->
+         <div class="action" id="calculator">
+            <i class="fa-solid fa-water"></i>
+            <button>Calculate</button>
+            <i class="fa-solid fa-arrow-right-long" style="color: rgb(239, 241, 241);"></i>
+         </div>         
+
+        <!-- OUTPUT -->
+        <div class="output">
+            <div class="output-container output1">
+                <div class="output-icon">
+                    <i class="fa-solid fa-mug-hot"></i>
+                    <h3>Tip amount</h3>
+                </div>
+                <!-- DYNAMIC -->
+                 <div class="output-amount">
+                    <p id="tip-amount"></p>
+                 </div>
+            </div>
+            <div class="output-container output2">
+                <div class="output-icon">
+                    <i class="fa-regular fa-credit-card"></i>
+                    <h3>Total Bill (Including Tip)</h3>
+                </div>
+                <!-- DYNAMIC -->
+                 <div class="output-amount">
+                    <p id="total-with-tip"></p>
+                 </div>
+            </div>
+            <div class="output-container output3">
+                <div class="output-icon">
+                    <i class="fa-regular fa-user"></i>
+                    <h3>Each Person Pays</h3>
+                </div>
+                <!-- DYNAMIC -->
+                 <div class="output-amount">
+                    <p id="per-person"></p>
+                 </div>
+            </div>
+           
+        </div>
+
+    </div>
+</main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

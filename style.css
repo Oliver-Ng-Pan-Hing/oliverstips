@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+/*
+"Changa One", sans-serif;
+"Google Sans", sans-serif;  
+*/
+
+/* COLOURS 
+darkgreen #0d302b
+*/
+
+*{
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans", sans-serif;
+    /* color: #0d302b; */
+}
+
+body {
+    background-image: url("/assets/backgroundimage.png");
+    background-position: center 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    /* background-color: lightgreen; */
+    display: flex;
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.app-container{
+    background-color: #f5eee6;
+    margin-top: 2em;
+    padding: 1.5em;
+    border-radius: 1.75em;
+    box-shadow: 0 3px 5px 5px rgba(77, 73, 67, 0.3);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 450px;
+    max-width: 80%;
+}
+
+#tablemnt{
+    width: 400px;
+}
+
+.great-heading{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    font-size: 0.5rem;
+    margin-bottom: 3em;    
+}
+
+.container-for-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
+
+    margin-bottom: 1.5em;
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.fa-receipt{
+    font-size: 1.9rem;
+    color: #0b2b28;
+}
+.fa-coins{
+    font-size: 1.9rem;
+    color: #0b2b28;
+}
+.fa-users{
+    font-size: 1.9rem;
+    color: #0b2b28;
+}
+
+.input-details{
+    width: 100%;
+}
+
+label{
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.input-details input{
+    width: 100%;
+    margin-top: 0.5em;
+
+    padding: 0.5em;
+    padding-right: 0;
+    font-size: 1rem; 
+    border: 1px solid #c9c9c5;  
+    border-radius: 0.5em;
+}
+
+
+.input-details input:focus{
+    border: 1px solid rgb(59, 100, 73);
+    outline: none;
+}
+
+
+#calculator{
+    background-color: #0d302b;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 1.25em;
+
+    border-radius: 2em;
+    padding: 0.75em;
+    transition: 0.3s; 
+}
+
+#calculator:hover{
+    background-color: #1d534b;
+}
+
+button{
+    cursor: pointer;
+    background-color: transparent;
+    color: #d7dbdb;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    font-family: "Google Sans";
+    font-size: 1.1rem;
+}
+
+.fa-water{
+color: #f0f2f2;
+}
+.fa-arrow-right-long{
+    color: #f0f2f2;
+}
+
+
+.output{
+    margin-top: 1.5em;
+    background-color: #e1e3da;
+    width: 100%;
+    display: flex;
+    flex-direction: column;  
+    border-radius: 1em; 
+}
+
+.output-container{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 1em;
+}
+
+.output-icon{
+    gap: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.fa-mug-hot{
+    font-size: 1.3rem;
+}
+.fa-credit-card{
+    font-size: 1.3rem;
+}
+.fa-user{
+    font-size: 1.3rem;
+}
+
+.output-amount{
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
