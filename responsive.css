@@ -1,0 +1,73 @@
+/* Smaller desktop */
+@media (max-width: 530px) {
+
+    .app-container{
+       padding-top: 0.25em;
+    }
+    #tablemnt{
+        width: 275px;
+    }
+    .great-heading{
+        margin-bottom: 1.75em;
+    }
+    .container-for-inputs{
+        align-items: center;
+        margin-bottom: 0.75em;
+    }
+
+    .inputs{
+        width: 90%;
+    }
+    .fa-receipt{
+    font-size: 1.5rem;
+    
+    }
+    .fa-coins{
+        font-size: 1.5rem;
+        
+    }
+    .fa-users{
+        font-size: 1.5rem;
+        
+    }
+    label{
+        font-size: 0.75rem;
+    }
+
+
+    /* alert!!! */
+    .alert{
+    font-size: 0.9rem;
+    margin-bottom: 0.75em;
+    }
+
+   .action-container{
+    flex-direction: column-reverse;
+   }
+   #calculator{
+    width: 100%;
+    margin-bottom: 0.75em;
+    padding: 0.6em;
+   }
+   .reset{
+    padding: 0.75em;
+    margin-top: 0.25em;
+   }
+   .note{
+    margin-top: 0.5em;
+   }
+
+   .output{
+    margin-top: 0;
+   }
+   
+   .output1{
+    padding-bottom: 0.1em;
+   }
+   .output2{
+    align-items: center;
+   }
+   .output3{
+    padding-top: 0.1em;
+   }
+}

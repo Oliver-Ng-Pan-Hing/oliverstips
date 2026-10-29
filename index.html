@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/242af0f8f3.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="/assets/Golden Tip Spark Icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="responsive.css">
     <title>Tip Calculator</title>
 </head>
 <body>
@@ -61,11 +62,11 @@
                         <input id="number-of-people" type="number" placeholder="E.g. 2">
                     </div>
                 </div>
-            </div>
-
-            <div class="alert" id="alert"></div>
+            </div>         
         
         </div>
+
+        <div class="alert" id="alert"></div>
         
         <!-- ACTION -->
         <div class="action-container">
@@ -99,7 +100,10 @@
             <div class="output-container output2">
                 <div class="output-icon">
                     <i class="fa-regular fa-credit-card"></i>
-                    <h3>Total Bill (Including Tip)</h3>
+                    <div class="total-bill-mini-container">
+                        <h3>Total Bill</h3>
+                        <h3>(Including Tip)</h3>
+                    </div>
                 </div>
                 <!-- DYNAMIC -->
                  <div class="output-amount">
