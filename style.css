@@ -35,7 +35,7 @@ main{
 
 .app-container{
     background-color: #f5eee6;
-    margin-top: 2em;
+    /* margin-top: 2em; */
     padding: 1.5em;
     border-radius: 1.75em;
     box-shadow: 0 3px 5px 5px rgba(77, 73, 67, 0.3);
@@ -67,7 +67,7 @@ main{
     gap: 1em;
     width: 100%;
 
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
 }
 
 .inputs{
@@ -115,6 +115,14 @@ label{
     outline: none;
 }
 
+.alert{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-weight: 600;
+    font-size: 1.125rem;
+}
+
 
 #calculator{
     background-color: #0d302b;
@@ -123,7 +131,7 @@ label{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 80%;
     gap: 1.25em;
 
     border-radius: 2em;
@@ -135,7 +143,15 @@ label{
     background-color: #1d534b;
 }
 
-button{
+.action-container{
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.action button{
     cursor: pointer;
     background-color: transparent;
     color: #d7dbdb;
@@ -153,9 +169,48 @@ color: #f0f2f2;
     color: #f0f2f2;
 }
 
+.reset{
+    /* border: 1px solid black; */
+    background-color: #e1e3da;
+    box-shadow: 0 1px 10px 1px rgba(9, 68, 6, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.75em 0.75em;
+    border-radius: 50%;
+    color: #c9c9c5;
+    transition: 0.1s;
+}
+.reset:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0 1px 10px 1px rgba(50, 128, 46, 0.3);
+}
+.reset button{
+    border: none;
+    background-color: transparent;
+    color: #0b2b28;
+}
+.reset button:hover{
+    cursor: pointer;
+}
+.fa-rotate-left{
+    color: #0b2b28;
+}
 
+/* BILL IS READY */
+.note{
+    /* background-color: blue; */
+    margin-top: 1.25em;
+    margin-bottom: 0.25em;
+    font-size: 1.25rem;
+    font-style: italic;
+    
+}
+
+/* OUTPUT SECTION */
 .output{
-    margin-top: 1.5em;
+    margin-top: 0.75em;
     background-color: #e1e3da;
     width: 100%;
     display: flex;
