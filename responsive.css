@@ -129,6 +129,20 @@
     label{
         margin-left: 0.25em;
     }
+    .action button{
+        font-size: 0.9rem;
+    }
+    .alert{
+    font-size: 0.8rem;
+    margin-bottom: 0.5em;
+    }
+
+    .reset button{
+        font-size: 0.75rem;
+    }
+    .fa-rotate-left{
+        font-size: 0.8rem;
+    }
 
     .input-details input{
         margin-top: 0.25em;
@@ -136,8 +150,31 @@
         padding: 0.4em;
         font-size: 0.9rem; 
     }
+        .reset{
+        padding: 0.45em;
+    }
 
-    .reset{
-    padding: 0.45em;
-   }
+    .output-icon{
+        gap: 0.5em;
+    }   
+}
+
+@media (max-width: 420px) {
+
+    .output h3{
+        font-size: 0.8rem;
+    }
+    .output p{
+        font-size: 0.8rem;
+    }
+    #calculator{
+        width: 60%;
+
+        font-size: 0.7rem;
+    }
+
+    #note{
+        font-size: 1rem;
+    }
+
 }
